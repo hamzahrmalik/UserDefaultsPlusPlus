@@ -1,12 +1,5 @@
 # UserDefaults++
 
-[![CI Status](https://img.shields.io/travis/Hamzah Malik/UserDefaultsPlusPlus.svg?style=flat)](https://travis-ci.org/Hamzah Malik/UserDefaultsPlusPlus)
-[![Version](https://img.shields.io/cocoapods/v/UserDefaultsPlusPlus.svg?style=flat)](https://cocoapods.org/pods/UserDefaultsPlusPlus)
-[![License](https://img.shields.io/cocoapods/l/UserDefaultsPlusPlus.svg?style=flat)](https://cocoapods.org/pods/UserDefaultsPlusPlus)
-[![Platform](https://img.shields.io/cocoapods/p/UserDefaultsPlusPlus.svg?style=flat)](https://cocoapods.org/pods/UserDefaultsPlusPlus)
-
-## Intro
-
 UserDefaults++ is a lightweight wrapper around UserDefaults to make managing keys and their types easier. Simply declare all your keys in one place to be able to save and retrieve items from them in a type safe manner. Plus, you can save any object by providing an encoder and decoder. These are provided automatically for Codable objects
 
 ## Usage
@@ -14,6 +7,8 @@ UserDefaults++ is a lightweight wrapper around UserDefaults to make managing key
 First, declare your keys. This is best done as static constants
 
 ```swift
+import UserDefaults_
+
 struct Storage {
     //define that we want to store a Bool using the key show_completed
     static let showCompleted = UserDefault<Bool>(key: "show_completed")
