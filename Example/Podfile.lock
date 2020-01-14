@@ -1,7 +1,7 @@
 PODS:
   - Nimble (7.3.4)
   - Quick (1.2.0)
-  - UserDefaultsPlusPlus (0.1.0)
+  - UserDefaultsPlusPlus (1.0.0)
 
 DEPENDENCIES:
   - Nimble (~> 7.0)

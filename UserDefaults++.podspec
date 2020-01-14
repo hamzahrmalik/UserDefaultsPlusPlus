@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UserDefaults++'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A wrapper around UserDefaults to make managing keys and their types easier'
 
   s.description      = <<-DESC
