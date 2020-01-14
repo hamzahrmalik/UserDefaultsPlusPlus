@@ -1,0 +1,27 @@
+PODS:
+  - Nimble (7.3.4)
+  - Quick (1.2.0)
+  - UserDefaultsPlusPlus (0.1.0)
+
+DEPENDENCIES:
+  - Nimble (~> 7.0)
+  - Quick (~> 1.2.0)
+  - UserDefaultsPlusPlus (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Nimble
+    - Quick
+
+EXTERNAL SOURCES:
+  UserDefaultsPlusPlus:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  UserDefaultsPlusPlus: 3a2f8150f0dfd907a756fb582df731d1aefb67e8
+
+PODFILE CHECKSUM: b4f1654a044adecad03f7e66548af3d9bbc30248
+
+COCOAPODS: 1.8.4
