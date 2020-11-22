@@ -14,8 +14,8 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "UserDefaultsPlusPlus"
-			path: "UserDefaultsPlusPlus"
+            name: "UserDefaultsPlusPlus",
+		path: "UserDefaultsPlusPlus"
         )
     ]
 )
